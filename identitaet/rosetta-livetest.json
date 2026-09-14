@@ -1,0 +1,17 @@
+{
+ "aufbewahrung": "Unveraenderliche Tag-Refs refs/tags/cas/<project_id>/<seed_manifest_id> auf Commits des geschuetzten Ledger-Branches refs/heads/cas-ledger/rosetta-livetest. Ein Tag-Ruleset ohne Bypass-Akteure verbietet Update und Loeschung; der Client prueft das bei jedem Lesen der Identitaet nach -- live gegen GET /rulesets oder, wenn der Endpunkt nicht lesbar ist, gegen den im Pin gebundenen Ruleset-Export. Die Objekte bleiben referenziert und werden nicht garbage-collected.",
+ "authentisierung": "GitHub fine-grained Personal Access Token, nur dieses Repository, Contents read/write und Metadata read, ausschliesslich aus der Umgebungsvariablen ROSETTA_CAS_GITHUB_TOKEN; keine Ablage in Config, Artefakt oder Log. Lesezugriffe auf das oeffentliche Repository brauchen kein Token.",
+ "extern_autoritativ": true,
+ "project_id": "rosetta-livetest",
+ "recovery": "Keine Rueckabwicklung und keine Freigabe. Bei Repository-Verlust erfolgt die Wiederherstellung ausschliesslich aus einem Klon mit allen Tags; Belegungen gelten unveraendert weiter. Eine Loeschung ist nur ueber eine Ruleset-Aenderung moeglich, die im Audit- und Security-Log erscheint.",
+ "schema": "rosetta-cas-identitaet/1",
+ "store_id": "github:svenja-dev:rosetta-cas:1358663117",
+ "transaktionssemantik": "Genau eine Ref je Seedmanifest traegt alle Scopes; POST git/refs ist atomar und antwortet 422, sobald die Ref existiert. Ein Teilerfolg ueber Scopes ist konstruktiv unmoeglich. Die Beanspruchungseinheit ist deshalb das Manifest, nicht der einzelne Scope.",
+ "versiegelt": false,
+ "versiegelung": {
+  "befund": "Die Rulesets ['cas-ledger-append-only', 'cas-tags-unveraenderlich'] decken ['refs/tags/cas/rosetta-livetest/*', 'refs/tags/cas-identity/rosetta-livetest'] nicht mit einem aktiven, bypassfreien Tag-Ruleset ab, das Update und Loeschung verbietet.",
+  "geprueft_utc": "2026-09-14T18:35:00Z",
+  "quelle": "rulesets",
+  "versiegelt": false
+ }
+}
