@@ -1,0 +1,23 @@
+{
+ "angefragt_utc": "2026-09-14T18:35:40Z",
+ "digest_quelle": "sha256(ledger_commit_sha als ASCII)",
+ "digest_sha256": "f537b98d55c771ecd476ebdc220ec94f39bd26a91db481c3be5423f6e7e6fc53",
+ "grenze": "Best effort und unverifiziert: die Kalenderantwort wird nur aufbewahrt. Vervollstaendigung und Pruefung erfolgen in einem spaeteren Audit-Werkzeug ausserhalb des Runners.",
+ "kalender": [
+  {
+   "antwort_base64": "8Ag6ZXWkRLfP6wjwEDe8sQKPVJ8/EFjgdZgsCgEI8CByClaqHP4wVn+4GIcGMwQa2q8eFU9aNuM1IH6yvLH4WQjxIBGjXtbUdZf7kFjpcx+7bUGa2fMWL3804tdgmQFPT8BwCPAgvAE6Es0zfdHJgxFgIlbzF7aNhIJd9S+10iSDqBHf7JoI8QRqqD5+8AjFUD3TY+GxRwCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+   "erfolgreich": true,
+   "fehler": null,
+   "url": "https://a.pool.opentimestamps.org/digest"
+  },
+  {
+   "antwort_base64": "8Ahq4giJO+QXHAjwEP7zjfulV0OZh+I7gcc1JfAI8SA06p/HH6Qmx23+ab53jhIj8mCl3VyDnFkMZxn7dyZfZAjxILhYpkSKygrCF+sWS3+7GpC7yAnZJWAmIWnHQfzcwPReCPEEaqg+fvAInOVkVF/f28cAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+   "erfolgreich": true,
+   "fehler": null,
+   "url": "https://b.pool.opentimestamps.org/digest"
+  }
+ ],
+ "ledger_commit_sha": "c7cffe22eb974af4268257541607dc6bee7d80f5",
+ "schema": "rosetta-cas-zeitanker/1",
+ "status": "erfolgreich"
+}
