@@ -1,0 +1,17 @@
+{
+ "client_bindung": {},
+ "client_utc": "2026-09-14T18:35:06Z",
+ "nonce": "4be75d59ecf4755315798fcde85540e91f5e760625cf865e695fc0201a9bab75",
+ "project_id": "rosetta-livetest",
+ "schema": "rosetta-cas-reservierung/1",
+ "scopes": [
+  "kal-val"
+ ],
+ "seed_manifest_id": "rosetta-livetest-5d854743fbb3",
+ "versiegelung": {
+  "befund": "Der Namensraum 'rosetta-livetest' ist im Pin ausdruecklich als Wegwerf-Namensraum des Livetests deklariert: seine Tags tragen bewusst keine Loeschsperre und sind deshalb kein Einmalnutzungsnachweis. Ein produktiver Schluessel liegt hier nie.",
+  "geprueft_utc": "2026-09-14T18:35:06Z",
+  "quelle": "wegwerf-namensraum",
+  "versiegelt": true
+ }
+}
