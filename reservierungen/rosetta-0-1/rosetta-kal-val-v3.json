@@ -1,0 +1,24 @@
+{
+ "client_bindung": {
+  "cas_store_pin_sha256": "1f2212a52daa534b8f4015c57945a95136c19cecc9678085ecd9c6d9be4d93bb",
+  "config_inhalt_sha256": "957918aedd07fc9fb74b4f3f311b316e55b4ab04ae90c6d35c11338553aa1ea7",
+  "d7_freigabe_sha256": "d71e1ea2b74f6cb526d02d9e6526f52d5ff28db4d24b573409fa6a4c85900add",
+  "d7_kandidaten_sha256": "3d44dd7d8fe5ce039ace8ac648fb272d78fc75a02a571336959f1639ae504db6",
+  "plan_sha256": "13c3f8a0ad17997e4fb465011b226e150fd18e6eec4672d478408646963ed8e4",
+  "quellcode_sha256": "2d3edb0803c02e2562fbfffbdb81ac75ebc7b06422ff34444748887a9c8b50ec"
+ },
+ "client_utc": "2026-10-28T22:32:43Z",
+ "nonce": "a83e381d3d24058ed83357ef5ed91dacf01c7586a11356a4b45a20d42d88fb00",
+ "project_id": "rosetta-0-1",
+ "schema": "rosetta-cas-reservierung/1",
+ "scopes": [
+  "kal-val"
+ ],
+ "seed_manifest_id": "rosetta-kal-val-v3",
+ "versiegelung": {
+  "befund": "Aktive, bypassfreie Tag-Rulesets ['cas-ledger-append-only', 'cas-tags-unveraenderlich'] verbieten Update und Loeschung fuer ['refs/tags/cas/rosetta-0-1/*', 'refs/tags/cas-identity/rosetta-0-1'].",
+  "geprueft_utc": "2026-10-28T22:32:42Z",
+  "quelle": "rulesets",
+  "versiegelt": true
+ }
+}
